@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Define character encoding, viewport and title of the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coxy's Comic Drawings</title>
+    <!-- Description of the website -->
+    <meta name="description" content="Learn to cook easy and delicious meals with us.">
+    <!-- Favicon for the website -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css"> </head>
+
+<body>
+    <!-- Dark mode toggle button -->
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <!-- Main wrapper for the page content -->
+    <div id="wrapper">
+        <!-- Header section containing logo and main image -->
+        <header>
+            <a href="index.html"> <img src="images/portfolio_logo.svg" alt="coxys comic drawings logo" width="160" height="61"> </a> <img id="topimage" src="images/portfolio_logo.svg" alt="coxys comic drawings" width="400" height="150"> </header>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="about.html" title="About me">About Me</a></li>
+                <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                <li><a href="projects.html" title="Projects">Projects</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- The main content area -->
+        <main>
+            <section class="about-me">
+                <h1>About Me</h1>
+                <article class="team-member"> <img src="images/Jesse_Cox.jpeg" width="200" height="250">
+                    <h2>Jesse Cox</h2>
+                    <p>As a current student at East Central University (ECU), pursuing a Bachelor of Design degree, my journey through the world of art and creativity has been nothing short of exhilarating. From a young age, I've been captivated by the power of visual storytelling, drawn to the vibrant pages of comic books that ignited my imagination and fueled my passion for drawing. Growing up, I immersed myself in the colorful worlds of various comic book genres, from classic superhero tales to gritty graphic novels. These diverse narratives inspired me to explore different artistic styles and techniques, laying the foundation for my love of both traditional comic art and cutting-edge 3D imagery. As I embarked on my academic journey at ECU, I discovered a newfound appreciation for the rich history and culture of feudal Japan. Delving into the fascinating world of samurai warriors and feudal lords, I found myself drawn to the intricate folk tales and legendary exploits that shaped this iconic era. From the heroic deeds of famous samurais to the mysterious allure of ancient Japanese folklore, each story served as a source of inspiration for my artistic endeavors. Today, as I continue to hone my skills in design and illustration, I find myself channeling my passion for comics and 3D imagery into creating captivating visual narratives that pay homage to my childhood heroes and the timeless tales of feudal Japan. With each stroke of the pen and click of the mouse, I strive to bring to life the dynamic characters and immersive worlds that have fueled my imagination for as long as I can remember.</p>
+                </article>
+            </section>
+            <!-- Our values section -->
+            <section class="our-values">
+                <h2>Our Values</h2>
+                <ul>
+                    <li><strong>Simplicity:</strong> Crafting comic book art that is visually engaging and easy to understand, ensuring that readers of all ages can immerse themselves in the story effortlessly.</li>
+                    <li><strong>Quality:</strong> Committing to meticulous attention to detail and craftsmanship in every aspect of comic book creation, from artwork to storytelling, to deliver an exceptional reading experience.</li>
+                    <li><strong>Innovation:</strong> Embracing new artistic techniques, storytelling methods, and digital tools to push the boundaries of comic book artistry and captivate readers with fresh and imaginative narratives.</li>
+                    <li><strong>Imagination:</strong> Harnessing boundless creativity to transport readers to fantastical worlds, populate them with dynamic characters, and weave captivating stories that ignite the imagination and inspire wonder.</li>
+                </ul>
+            </section>
+        </main>
+        <!-- Footer section with copyright information, privacy policy, and contact information -->
+        <footer>
+            <ul>
+                <li>&copy; Coxy's Comic Drawings</li>
+                <li><a href="docs/sample.pdf">Privacy Policy</a></li>
+                <li>Contact us at: <a href="mailto:info@coxyscomicdrawings.com">info@coxyscomicdrawings.com</a></li>
+                <li>Find us at: 16 Flinders Street, Wyndham WA 6740</li>
+            </ul>
+        </footer>
+    </div>
+    <!-- End of wrapper div -->
+    <!-- JavaScript for dark mode toggle -->
+    <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+
+</html>

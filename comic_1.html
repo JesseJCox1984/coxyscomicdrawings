@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Define character encoding, viewport and title of the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coxy's Comic Drawings</title>
+    <!-- Description of the website -->
+    <meta name="description" content="Learn to cook easy and delicious meals with us.">
+    <!-- Favicon for the website -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Grid styling for the section containing images */
+        
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        
+        section img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Dark mode toggle button -->
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <!-- Main wrapper for the page content -->
+    <div id="wrapper">
+        <!-- Header section containing logo and main image -->
+        <header>
+            <a href="index.html"> <img src="images/portfolio_logo.svg" alt="coxys comic drawings logo" width="160" height="61"> </a> <img id="topimage" src="images/portfolio_logo.svg" alt="coxys comic drawings" width="400" height="150"> </header>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="about.html" title="About me">About Me</a></li>
+                <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                <li><a href="projects.html" title="Projects">Projects</a></li>
+                <li><a href="contact.html" title="Contact us">Contact Us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!-- ========= CONTENT AREA 1 ============ -->
+            <article>
+                <section> <img src="images/Hachiman-fight-scene-1.jpg" alt="Image 1"> <img src="images/Hachiman-fight-scene-2.jpg" alt="Hachiman 2"> <img src="images/Hachiman-fight-scene-3.jpg" alt="Hachiman 3"> <img src="images/Hachiman-fight-scene-4.jpg" alt="Hachiman 4"> <img src="images/Hachiman-fight-scene-5.jpg" alt="Hachiman 5"> <img src="images/Hachiman-fight-scene-6.jpg" alt="Hachiman 6"> <img src="images/Hachiman-fight-scene-7.jpg" alt="Hachiman 7"> <img src="images/Hachiman-fight-scene-8.jpg" alt="Hachiman 8"> <img src="images/Hachiman-fight-scene-9.jpg" alt="Hachiman 9"> </section>
+            </article>
+        </main>
+        <!-- ============= FOOTER ================ -->
+        <footer>
+            <ul>
+                <li>&copy; Coxy's Comic Drawings</li>
+                <li><a href="docs/sample.pdf">Privacy Policy</a></li>
+                <li>Contact us at: <a href="mailto:info@coxyscomicdrawings.com">info@coxyscomicdrawings.com</a></li>
+                <li>Find us at: 16 Flinders Street, Wyndham WA 6740</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

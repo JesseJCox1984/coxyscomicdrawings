@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Define character encoding, viewport and title of the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coxy's Comic Drawings</title>
+    <!-- Description of the website -->
+    <meta name="description" content="Learn to cook easy and delicious meals with us.">
+    <!-- Favicon for the website -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Styling for the aside sections to be displayed side by side */
+        
+        aside {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+        
+        .aside-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 20px;
+            max-width: 1200px;
+        }
+        
+        aside section {
+            flex: 1 1 45%;
+        }
+        
+        .aside-img {
+            width: 100%;
+            height: auto;
+        }
+        
+        blockquote {
+            width: 90%;
+            max-width: 800px;
+            padding: 10px;
+            border-left: 5px solid #ccc;
+            background: #f9f9f9;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Dark mode toggle button -->
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <!-- Main wrapper for the page content -->
+    <div id="wrapper">
+        <!-- Header section containing logo and main image -->
+        <header>
+            <a href="index.html"> <img src="images/portfolio_logo.svg" alt="coxys comic drawings logo" width="170" height="71"> </a> <img id="topimage" src="images/portfolio_logo.svg" alt="coxys comic drawings" width="400" height="150"> </header>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="about.html" title="About me">About Me</a></li>
+                <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                <li><a href="projects.html" title="Projects">Projects</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Main content of the page -->
+        <main>
+            <article id="three-columns">
+                <section>
+                    <h2>Unleash Your Imagination: Explore Stunning Comic Art Creations</h2>
+                    <p>My collection features creations that bring stories to life with vivid illustrations and dynamic characters. Each piece is crafted with meticulous detail, capturing the essence of adventure, emotion, and creativity. Whether you're a longtime comic enthusiast or new to the genre, our gallery offers a visual feast that will inspire and captivate you. Explore our comic art and let your imagination soar to new heights!</p> <img src="images/IMG_4539.jpeg" alt="Comic Art 1"> <img src="images/AnimationDemo_1.0032.png" alt="Comic Art 2"> </section>
+                <section>
+                    <h2>Dive Into the World of Comics: A Portfolio of Masterful Illustrations</h2>
+                    <p>Each piece in our collection showcases the talent and creativity of exceptional artists, bringing to life a diverse range of stories and characters. From heroic adventures to fantastical realms, our illustrations captivate the imagination and offer a visual journey like no other. Whether you're a dedicated comic aficionado or exploring this art form for the first time, our portfolio promises to engage, inspire, and amaze. Explore the vibrant and dynamic world of comics through our expertly crafted artwork and let your imagination run wild.</p> <img src="images/IMG_4300.jpeg" alt="Comic Art 3"> <img src="images/IMG_5220.jpeg" alt="Comic Art 4"> </section>
+                <section>
+                    <h2>Captivating Comics: A Showcase of Creative Excellence</h2>
+                    <p>Each piece tells a unique story, blending dynamic illustrations with compelling narratives to transport you to extraordinary realms. Whether you're a seasoned comic lover or a newcomer to this vibrant art form, our showcase promises to inspire and delight. Experience the magic of creative excellence through our curated selection of captivating comics and let your imagination soar.</p> <img src="images/IMG_5220.jpeg" alt="Comic Art 5"> <img src="images/AnimationDemo_1.0002.png" alt="Comic Art 6"> </section>
+            </article>
+            <article id="cooking">
+                <div> <img src="images/Cyberpunk_Girl.jpg" width="500" height="250" alt="Cyberpunk Girl image"> </div>
+                <div>
+                    <h2>Cyberpunk Girl</h2>
+                    <p>Immerse yourself in the futuristic world of cyberpunk with our stunning Cyberpunk Girl 3D digital image. This captivating artwork brings to life a dynamic and enigmatic character, adorned with sleek cybernetic enhancements and futuristic attire.</p> <a href="http://www.ecu.edu.au" title="Where I currently study" rel="external" target="_blank">Learn more</a> </div>
+            </article>
+        </main>
+        <!-- Sidebar with additional content -->
+        <aside>
+            <section class="aside-content">
+                <section>
+                    <a href="images/Cyberangel_2.jpg" title="Cyberangel_2"> <img class="aside-img" src="images/Cyberangel_2.jpg" alt="Cyberpunk Angel"> </a>
+                    <h2>Cyberpunk Angel</h2>
+                    <p>Step into the realm of my Cyber Angel 3D artwork, where technology meets divine beauty in a mesmerizing fusion. This captivating piece showcases a celestial being adorned with intricate cybernetic wings and luminous armor, embodying both grace and power.</p>
+                </section>
+                <section>
+                    <a href="images/Samurai_Lady_1.jpg" title="Samurai Lady"> <img class="aside-img" src="images/Samurai_Lady_1.jpg" alt="Samurai Lady"> </a>
+                    <h2>Samurai Lady</h2>
+                    <p>This stunning artwork portrays a noble warrior adorned in traditional armor, poised with katana in hand and determination in her eyes. With fluid lines and meticulous attention to detail, my Samurai Lady emanates strength, honor, and grace.</p>
+                </section>
+            </section>
+            <blockquote>
+                <p id="text">"Art is an evolutionary act. The shape of art and its role in society is constantly changing. At no point is art static. There are no rules"</p>
+                <p>Raymond Briggs</p>
+            </blockquote>
+        </aside>
+        <!-- Footer section with copyright information, privacy policy, and contact information -->
+        <footer>
+            <ul>
+                <li>&copy; Coxy's Comic Drawings</li>
+                <li><a href="docs/sample.pdf">Privacy Policy</a></li>
+                <li>Contact us at: <a href="mailto:info@coxyscomicdrawings.com">info@coxyscomicdrawings.com</a></li>
+                <li>Find us at: 16 Flinders Street, Wyndham WA 6740</li>
+            </ul>
+        </footer>
+    </div>
+    <!-- JavaScript for dark mode toggle -->
+    <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+
+</html>

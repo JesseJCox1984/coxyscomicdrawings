@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Define character encoding, viewport and title of the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coxy's Comic Drawings</title>
+    <!-- Description of the website -->
+    <meta name="description" content="Learn to cook easy and delicious meals with us.">
+    <!-- Favicon for the website -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css"> </head>
+
+<body>
+    <!-- Dark mode toggle button -->
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <!-- Main wrapper for the page content -->
+    <div id="wrapper">
+        <!-- Header section containing logo and main image -->
+        <header>
+            <a href="index.html"> <img src="images/portfolio_logo.svg" alt="coxys comic drawings logo" width="160" height="61"> </a> <img id="topimage" src="images/portfolio_logo.svg" alt="coxys comic drawings" width="400" height="150"> </header>
+        <!-- Navigation menu -->
+        <nav>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Home">Home</a></li>
+                    <li><a href="about.html" title="About me">About Me</a></li>
+                    <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                    <li><a href="projects.html" title="Projects">Projects</a></li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </nav>
+        <!-- The main content area -->
+        <main>
+            <h1>My Projects</h1>
+            <p>Here are some of the exciting projects we've been working on:</p>
+            <!-- Projects section -->
+            <section class="projects">
+                <article class="project-item">
+                    <h2>The Boatshed Restaurant</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hoc est non dividere, sed frangere. Huius, Lyco, oratione locuples, rebus ipsis ielunior. Quod cum dixissent, ille contra.</p>
+                    <a href="images/floor-plan.jpg" title="floorplan"> <img src="images/floor-plan.jpg" alt="floorplan" width="500" height="333"> </a>
+                </article>
+                <article class="project-item">
+                    <h2>Cyber Angel</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si quicquam extra virtutem habeatur in bonis. Bork Certe non potest. Cyrenaici quidem non recusant.</p>
+                    <a href="images/Cyberangel5.jpg" title="cyberangel"> <img src="images/Cyberangel5.jpg" alt="cyberangel" width="500" height="333"> </a>
+                </article>
+                <article class="project-item">
+                    <h2>My Uni project 1</h2>
+                    <p>Sed ego in hoc resisto; Tum Torquatus: Prorsus, inquit, assentior; Mihi, inquam, qui te id ipsum rogavi? Quis enim redargueret? Equidem e Cn. Restatis igitur vos.</p>
+                    <a href="images/Interview_drawing.jpg" title="uni project 1"> <img src="images/Interview_drawing.jpg" alt="uni project 1" width="500" height="333"> </a>
+                </article>
+                <article class="project-item">
+                    <h2>My Uni project 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Nullus est igitur cuiusquam dies natalis. Stoici scilicet. Ita multa dicunt, quae vix intellegam.</p>
+                    <a href="images/Cooking_comic_strip.jpg" title="Cooking Comic"> <img src="images/Cooking_comic_strip.jpg" alt="Cooking Comic" width="500" height="333"> </a>
+                </article>
+            </section>
+        </main>
+        <!-- Footer section with copyright information, privacy policy, and contact information -->
+        <footer>
+            <ul>
+                <li>&copy; Coxy's Comic Drawings</li>
+                <li><a href="docs/sample.pdf">Privacy Policy</a></li>
+                <li>Contact us at: <a href="mailto:info@coxyscomicdrawings.com">info@coxyscomicdrawings.com</a></li>
+                <li>Find us at: 16 Flinders Street, Wyndham WA 6740</li>
+            </ul>
+        </footer>
+    </div>
+    <!-- End of wrapper div -->
+    <!-- JavaScript for dark mode toggle -->
+    <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+
+</html>

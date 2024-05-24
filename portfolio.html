@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Define character encoding, viewport and title of the page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coxy's Comic Drawings</title>
+    <!-- Description of the website -->
+    <meta name="description" content="Learn to cook easy and delicious meals with us.">
+    <!-- Favicon for the website -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css"> </head>
+
+<body>
+    <!-- Dark mode toggle button -->
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <!-- Main wrapper for the page content -->
+    <div id="wrapper">
+        <!-- Header section containing logo and main image -->
+        <header>
+            <a href="index.html"> <img src="images/portfolio_logo.svg" alt="coxys comic drawings logo" width="160" height="61"> </a> <img id="topimage" src="images/portfolio_logo.svg" alt="coxys comic drawings" width="400" height="150"> </header>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="about.html" title="About me">About Me</a></li>
+                <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                <li><a href="projects.html" title="Projects">Projects</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Main content of the page -->
+        <main>
+            <article id="two-columns">
+                <section>
+                    <h2><a href="comic_1.html">Comic Series 1</a></h2> <img src="images/Hachiman-fight-scene-7.jpg" alt="Comic series 1" width="100%" height="auto">
+                    <p>Description of Comic Series 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quonam, inquit, modo? Cum praesertim illa perdiscere ludus esset. <a href="comic_1.html">Read more</a></p>
+                </section>
+                <section>
+                    <h2><a href="comic_2.html">Comic Series 2</a></h2> <img src="images/Cooking_1.jpg" alt="Comic series 2" width="100%" height="auto">
+                    <p>Description of Comic Series 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quonam, inquit, modo? Cum praesertim illa perdiscere ludus esset. <a href="comic_2.html">Read more</a></p>
+                </section>
+            </article>
+            <!-- Adding a section for the resume -->
+            <section id="resume">
+                <h2>My Resume</h2>
+                <p>Interested in learning more about my professional background? Download my resume to see more details.</p> <a href="docs/Jesse%20Cox%20Resume%202023.pdf" title="Download Resume" target="_blank">Download Resume (PDF)</a> </section>
+            <article id="featured drawing">
+                <div> <img src="images/IMG_5209.jpeg" width="436" height="220" alt="featured drawing"> </div>
+                <div>
+                    <h2>Featured Drawing</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bork Non autem hoc: igitur ne illud quidem. Stoicos roga. Duo Reges: constructio interrete.</p>
+                </div>
+            </article>
+        </main>
+        <!-- Sidebar with additional content -->
+        <aside>
+            <section>
+                <a href="images/IMG_4297.jpeg" title="Sketch 1"> <img class="aside-img" src="images/IMG_4297.jpeg" alt="Sketch 1"> </a>
+                <h2>Sketch 1</h2>
+                <p>Aliter enim explicari, quod quaeritur, non potest. Quae cum essent dicta, discessimus. Ne discipulum abducam, times.</p>
+            </section>
+            <section>
+                <a href="images/IMG_4300.jpeg" title="Sketch 2"> <img class="aside-img" src="images/IMG_4300.jpeg" alt="Sketch 2"> </a>
+                <h2>Sketch 2</h2>
+                <p>Sed in rebus apertissimis nimium longi sumus. Erit enim mecum, si tecum erit. Hoc est non dividere, sed frangere.</p>
+            </section>
+            <blockquote>
+                <p id="text">Conferam tecum, quam cuique verso rem subicias; Nulla erit controversia. Quam illa ardentis amores excitaret sui! Cur tandem?</p>
+                <p>Author name
+                    <br>Source title</p>
+            </blockquote>
+        </aside>
+        <!-- Footer section with copyright information, privacy policy, and contact information -->
+        <footer>
+            <ul>
+                <li>&copy; Coxy's Comic Drawings</li>
+                <li><a href="docs/sample.pdf">Privacy Policy</a></li>
+                <li>Contact us at: <a href="mailto:info@coxyscomicdrawings.com">info@coxyscomicdrawings.com</a></li>
+                <li>Find us at: 16 Flinders Street, Wyndham WA 6740</li>
+            </ul>
+        </footer>
+    </div>
+    <!-- JavaScript for dark mode toggle -->
+    <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+
+</html>
